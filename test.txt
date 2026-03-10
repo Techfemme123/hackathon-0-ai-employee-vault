@@ -1,0 +1,2 @@
+This is my first vault file.
+Sana is building her AI Employee Agent.

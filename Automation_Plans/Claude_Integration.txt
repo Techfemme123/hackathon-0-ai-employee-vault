@@ -1,0 +1,10 @@
+﻿Task: Explore Claude AI for automation
+Status: Pending
+Created: 06-Feb-2026
+
+Next Steps:
+1. Check when Claude AI can be used publicly or via API.
+2. Identify repetitive tasks in the vault suitable for automation.
+3. Test simple automation scripts with Python.
+4. Track tasks that can be fully automated once Claude is available.
+5. Prepare workflow for instant AI responses and summaries.

@@ -1,0 +1,2 @@
+This is Sana’s first AI vault file.
+The agent is now alive.
