@@ -1,39 +1,34 @@
-# AI Employee Vault
+# 🤖 AI Employee Vault
 
-AI Employee Vault is an experimental automation system designed to simulate a digital employee that manages tasks, plans, and reports using filesystem workflows.
+An autonomous AI Employee system that processes tasks from an Inbox,
+creates action plans, and tracks progress through a structured workflow.
 
-## Features
+This project simulates a **Digital AI Worker (FTE)** capable of organizing
+tasks automatically using Python automation and a Flask dashboard.
 
-- Inbox based task intake
-- Automatic plan generation
-- Filesystem monitoring
-- Task tracking
-- Daily reporting dashboard
-- AI decision support
+---
 
-## Folder Workflow
+## 🚀 Features
+
+- 📥 Inbox task detection
+- 🤖 AI task processing
+- 📂 Automatic workflow management
+- 🧠 AI planning engine
+- 🌐 Flask web dashboard
+- 📊 Task tracking system
+
+---
+
+## 🧠 System Architecture
 
 Inbox → Needs_Action → Plans → Done
 
-## Key Scripts
+1. User drops task into **Inbox**
+2. Watcher detects the task
+3. AI Brain analyzes it
+4. Plan is created
+5. Task moves through workflow folders
 
-start_ai_employee.py – launches the system  
-filesystem_watcher.py – monitors folders  
-plan_generator.py – creates execution plans  
-ai_brain.py – decision logic  
+---
 
-## Purpose
-
-This project was created as part of an automation hackathon to explore how a lightweight AI worker could manage operational tasks using structured file workflows.
-## Workflow
-
-The AI Employee Vault processes tasks using a filesystem pipeline:
-
-Inbox → Needs_Action → Plans → Done → Logs → Dashboard
-
-1. Tasks enter the system through the Inbox
-2. Files are processed and moved to Needs_Action
-3. Execution plans are generated in Plans
-4. Completed work moves to Done
-5. Activity logs are stored in Logs
-6. System status appears in Dashboard
+## 📁 Project Structure
